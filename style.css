@@ -177,10 +177,11 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  height: 80vh;
+  display: flex; /* 讓#profile 中的元素，由左至右排列 */
+  justify-content: center; /* 內部各個元素置中 */
+  gap: 5rem; /* 設定各個元素間隔 */
+  height: 75vh;
+  margin-bottom: 8vh;
 }
 
 .section__pic-container {
