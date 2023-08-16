@@ -33,6 +33,10 @@
   section {
     height: fit-content;
   }
+  .text-container {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
 }
 
 @media screen and (max-width: 600px) {
