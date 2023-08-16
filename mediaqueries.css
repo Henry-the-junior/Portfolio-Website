@@ -3,9 +3,11 @@
     height: 75vh;
     margin-bottom: 8vh;
   }
-  section,
-  .section-container {
-    height: fit-content;
+  .arrow {
+    display: none;
+  }
+  section {
+    margin: 0 5%; /* 利用margin來調整section的寬度 */
   }
 }
 
@@ -25,8 +27,11 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
+  .about-containers {
+    margin-top: 0;
+  }
   section {
-    margin: 0 5%; /* 利用margin來調整section的寬度 */
+    height: fit-content;
   }
 }
 
@@ -62,5 +67,12 @@
   }
   .btn-container {
     flex-wrap: wrap;
+  }
+  .about-containers {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .text-container {
+    margin-top: 2rem;
   }
 }

@@ -172,6 +172,8 @@ section {
 
 .section-container {
   display: flex;
+  gap: 4rem;
+  height: 80%;
 }
 
 /* PROFILE SECTION */
@@ -274,4 +276,51 @@ section {
 
 .btn-container {
   gap: 1rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+/* ABOUT SECTION */
+
+#about {
+  position: relative;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.about-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  min-width: 15rem;
+  max-width: 20rem;
+}
+
+.details-container-text {
+  padding: 1rem;
+  min-width: 10rem;
 }
