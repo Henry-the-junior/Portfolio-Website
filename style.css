@@ -27,6 +27,10 @@ p {
   font-family: "Noto Sans TC", sans-serif;
 }
 
+.highlight-text {
+  font-size: 2rem;
+}
+
 /* TRANSITION */
 
 a,
