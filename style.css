@@ -39,6 +39,17 @@ a,
 }
 
 /* DESKTOP NAV */
+/* Concepts about the nav part */
+/* 1. flex */
+/* 2. justify-content (https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) */
+/* 3. align-items */
+/* 4. vh, vw */
+/* 5. gap */
+/* 6. list-style */
+/* 7. font-size */
+/* 8. text-decoration (https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration) */
+/* 9. text-underline-offset */
+/* 10. cursor */
 
 nav,
 .nav-links {
@@ -76,7 +87,7 @@ a:hover {
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: default; /* 讓游標移到logo時，不會變反白的樣子 */
 }
 
 /* HAMBURGER MENU */
