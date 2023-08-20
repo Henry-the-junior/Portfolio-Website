@@ -9,6 +9,12 @@
   section {
     margin: 0 5%; /* 利用margin來調整section的寬度 */
   }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  .experience-containers {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -28,6 +34,9 @@
     margin: 0 auto 2rem;
   }
   .about-containers {
+    margin-top: 0;
+  }
+  .experience-containers {
     margin-top: 0;
   }
   section {
@@ -78,5 +87,20 @@
   }
   .text-container {
     margin-top: 2rem;
+  }
+  .experience-containers {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .experience-sub-title {
+    font-size: 1.3rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  #contact,
+  footer {
+    height: 40vh;
   }
 }
