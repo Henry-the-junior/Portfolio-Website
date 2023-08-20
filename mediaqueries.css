@@ -9,11 +9,14 @@
   section {
     margin: 0 5%; /* 利用margin來調整section的寬度 */
   }
-  .about-containers {
-    flex-wrap: wrap;
-  }
   .experience-containers {
     flex-wrap: wrap;
+  }
+  .section-container {
+    margin-top: 1rem;
+  }
+  .experience-details-container {
+    margin-top: 1rem;
   }
 }
 
