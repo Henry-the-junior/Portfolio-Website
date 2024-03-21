@@ -1,4 +1,11 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1700px) {
+  .section__pic-container {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1420px) {
   #profile {
     height: 75vh;
     margin-bottom: 8vh;
@@ -20,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
   #desktop-nav {
     display: none;
   }

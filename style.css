@@ -208,8 +208,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   margin: auto 0;
 }
 
@@ -318,6 +318,13 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
 }
 
 .about-containers {
