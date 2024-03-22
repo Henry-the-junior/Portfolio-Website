@@ -113,4 +113,8 @@
   footer {
     height: 40vh;
   }
+  .quote {
+    text-align: center;
+    font-size: 1rem;
+  }
 }

@@ -238,7 +238,8 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   gap: 1rem;
 }
 
@@ -301,6 +302,11 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+
+.quote {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 /* ABOUT SECTION */
